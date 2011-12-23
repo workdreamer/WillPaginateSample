@@ -1,0 +1,18 @@
+<%= link_to "Get results with cities", :controller => :entities, :action => :cities %>
+<table class="main-table">
+  <thead>
+  <tr>
+    <th>Name</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @entities.each do |entity| %>
+      <tr>
+        <td><%=  entity.name%></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+<div class="pagination-wrapper">
+    <%= will_paginate @entities %>
+</div>

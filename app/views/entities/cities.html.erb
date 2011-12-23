@@ -1,0 +1,20 @@
+<%= link_to "Back to normal index page", {:controller => :entities} %>
+<table class="main-table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Living City</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @entities.each do |entity| %>
+      <tr>
+        <td><%=  entity.name%></td>
+        <td><%=  entity.city.try(:name)%></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+<div class="pagination-wrapper">
+    <%= will_paginate @entities %>
+</div>
