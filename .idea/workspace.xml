@@ -44,7 +44,7 @@
       <file leaf-file-name="entity.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/entity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="135" selection-start="453" selection-end="453" vertical-scroll-proportion="0.12861736">
+            <state line="7" column="86" selection-start="282" selection-end="282" vertical-scroll-proportion="0.11254019">
               <folding />
             </state>
           </provider>
@@ -686,7 +686,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/entity.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="135" selection-start="453" selection-end="453" vertical-scroll-proportion="0.12861736">
+        <state line="7" column="86" selection-start="282" selection-end="282" vertical-scroll-proportion="0.11254019">
           <folding />
         </state>
       </provider>
